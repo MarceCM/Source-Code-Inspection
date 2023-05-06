@@ -25,7 +25,7 @@ jobs:
       - name: Test
         run: |
           mvn --batch-mode -Dmaven.test.failure.ignore=true test
-          ls -lha target
+          ls -lha target/surefire-reports
 
       - name: Report
         uses: dorny/test-reporter@v1
