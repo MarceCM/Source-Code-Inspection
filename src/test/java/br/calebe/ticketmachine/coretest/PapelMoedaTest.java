@@ -16,11 +16,17 @@ import br.calebe.ticketmachine.core.PapelMoeda;
 public class PapelMoedaTest {
     
     @Test
-    public void testaInstanciaDeUmObjeto(){
+    public void testaValor(){
         PapelMoeda papelMoeda = new PapelMoeda(100, 5);
         
         Assertions.assertEquals(100, papelMoeda.getValor());
     }
 
+    @Test
+    public void testaQuantidade(){
+        PapelMoeda papelMoeda = new PapelMoeda(100, 5);
+        
+        Assertions.assertEquals(5, papelMoeda.getQuantidade());
+    }
     
 }
