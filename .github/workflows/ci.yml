@@ -3,7 +3,7 @@ name: Execução de Testes Unitários
 on:
   pull_request:
     types:
-      - opened
+      - opened, edited
     branches:
       - 'master'
 
