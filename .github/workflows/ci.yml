@@ -2,8 +2,7 @@ name: Execução de Testes Unitários
 
 on:
   pull_request:
-    types:
-      - opened, edited
+    types: [opened, edited, synchronize]
     branches:
       - 'master'
 
