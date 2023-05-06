@@ -27,8 +27,8 @@ jobs:
           mvn --batch-mode -Dmaven.test.failure.ignore=true test
           ls -lha target/surefire-reports
 
-      - name: Report
-        uses: dorny/test-reporter@v1
+      - name: Test Reporter
+        uses: dorny/test-reporter@v1.6.0
         if: always()
         with:
           name: Maven Tests
