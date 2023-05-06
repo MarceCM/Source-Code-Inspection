@@ -6,7 +6,7 @@ package br.calebe.ticketmachine.coretest;
 
 import org.junit.jupiter.api.*;
 
-import br.calebe.ticketmachine.core.PapelMoeda;
+import br.calebe.ticketmachine.core.TicketMachine;
 
 /**
  *
