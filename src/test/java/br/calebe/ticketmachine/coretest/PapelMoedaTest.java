@@ -19,7 +19,7 @@ public class PapelMoedaTest {
     public void testaInstanciaDeUmObjeto(){
         PapelMoeda papelMoeda = new PapelMoeda(100, 5);
         
-        Assertions.assertEquals(10, papelMoeda.getValor());
+        Assertions.assertEquals(100, papelMoeda.getValor());
     }
 
     
